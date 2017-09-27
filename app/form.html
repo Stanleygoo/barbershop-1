@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Barbershop Записаться</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.createElement('picture');
+  </script>
+  <script src="js/picturefill.min.js" async></script>
+</head>
+<body class="page">
+<!-- HEADER -->
+<header class="main-header main-header--divider">
+<!-- HEADER -> NAVLINE -->
+  <div class="navline">
+    <nav class="navigation-wrapper container navigation-wrapper--nojs">
+      <ul class="navigation">
+        <li class="navigation__item"><a href="index.html" class="navigation__link">Главная</a></li>
+        <li class="navigation__item"><a href="works.html" class="navigation__link">Наши работы</a></li>
+        <li class="navigation__item navigation__item--active"><a class="navigation__link">Записаться</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">HTML Academy</a></li>
+      </ul>
+      <ul class="userblock">
+        <li class="userblock__item"><a href="/login" class="userblock__link userblock__link--enter">Вход</a></li>
+      </ul>
+      <button class="menu-toggle" type="button">Открыть меню</button>
+    </nav>
+  </div>
+<!-- HEADER -> LOGOLINE -->
+  <div class="logoline logoline--divider">
+    <picture>
+      <source media="(max-width: 320px)" srcset="img/m-logo.png">
+      <source media="(max-width: 768px)" srcset="img/t-logo.png">
+      <img src="img/d-logo.png" alt="Barbershop" class="logoline__logo">
+    </picture>
+  </div>
+</header>
+
+<!-- SUBSCRIBE -->
+<div class="appline">
+  <section class="app container">
+    <h2 class="app__title">Запись на стрижку</h2>
+    <a href="#" class="app__home">На главную</a>
+    <form action="" method="post" class="app__form">
+    
+      <div class="personal-form">
+        <input type="text" class="personal-form__input personal-form__input--name" placeholder="Имя" name="app__name">
+        <input type="text" class="personal-form__input personal-form__input--surname" placeholder="Фамилия" name="app__surname">
+        <input type="text" class="personal-form__input personal-form__input--patronymic" placeholder="Отчество" name="app__patronymic">
+      </div>
+
+      <div class="contact-form">
+        <input type="tel" class="contact-form__input contact-form__input--phone" placeholder="Контактный телефон" name="app__phone">
+        <input type="email" class="contact-form__input contact-form__input--email" placeholder="Контактный e-mail" name="app__mail">
+      </div>
+
+      <textarea type="text" class="app__add-info" placeholder="Доп. информация для мастера" name="app__add-info"></textarea>
+
+      <fieldset class="beard">
+          <legend class="beard__title">Выберите модель бороды:</legend>
+          <label for="beard__point1" class="beard__label beard__label--admiral">
+            <input type="radio" name="beard__point" id="beard__point1" checked>
+            <span class="beard__point"></span>
+            адмирал
+          </label>
+          <label for="beard__point2" class="beard__label beard__label--lumberjack">
+            <input type="radio" name="beard__point" id="beard__point2">
+            <span class="beard__point"></span>
+            лесоруб
+          </label>
+          <label for="beard__point3" class="beard__label beard__label--polar-explorer">
+            <input type="radio" name="beard__point" id="beard__point3">
+            <span class="beard__point"></span>
+            полярник
+          </label>
+          <label for="beard__point4" class="beard__label beard__label--boyar">
+            <input type="radio" name="beard__point" id="beard__point4">
+            <span class="beard__point"></span>
+            боярин
+          </label>
+          <label for="beard__point5" class="beard__label beard__label--sage">
+            <input type="radio" name="beard__point" id="beard__point5">
+            <span class="beard__point"></span>
+            мудрец
+          </label>
+      </fieldset>
+
+      <fieldset class="additional">
+      <legend class="additional__title">Дополнительные услуги:</legend>
+      <div class="additional__wrapper">
+          <input type="checkbox" id="additional__option1">
+          <input type="checkbox" id="additional__option2">
+          <input type="checkbox" id="additional__option3">
+          <input type="checkbox" id="additional__option4">
+          <input type="checkbox" id="additional__option5">
+          <input type="checkbox" id="additional__option6">
+          <label for="additional__option1" class="additional__label">Подкрасить бороду</label>
+          <label for="additional__option2" class="additional__label">Причесать бороду</label>
+          <label for="additional__option3" class="additional__label">Убрать седину</label>
+          <label for="additional__option4" class="additional__label">Накрутить усы</label>
+          <label for="additional__option5" class="additional__label">Подровнять виски</label>
+          <label for="additional__option6" class="additional__label">Отполировать лысину</label>
+        </div>
+      </fieldset>
+
+      <button type="submit" class="app__send">Отправить заявку</button>
+
+    </form>
+  </section>
+</div>
+
+<!-- FOOTERLINE -->
+<div class="footerline">
+  <footer class="main-footer container">
+    <section class="contact">
+    <b class="contact__title">Барбершоп Бородинский</b>
+    <address class="contact__address">
+    г. Санкт-Петербург, ул. Большая Конюшенная 19/8 
+    <span class="hidden__mobile">Тел.: </span>
+    <a href="#" class="contact__link">+7 (812) 555-66-66</a>  
+    </address>
+    </section>
+    <section class="social">
+      <b class="social__title">Давайте дружить!</b>
+      <ul class="social__list">
+        <li class="social__item"><a href="#" class="social__link social__link--vkontakte">Вконтакте</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--facebook">Facebook</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--instagram">Instagram</a></li>
+      </ul>
+    </section>
+    <section class="copyright">
+      <b class="copyright__title">Разработано:</b>
+      <a href="#" class="copyright__link">HTML Academy</a>
+    </section>
+  </footer>
+</div>
+
+<!-- LOGIN FORM -->
+<div class="login login--closed">
+  <h2 class="login__title">Личный кабинет</h2>
+  <p class="login__descr">Введите свой логин и пароль, чтобы войти</p>
+  <form action="" class="login__form" method="post">
+    <label class="login__label login__label--name">
+      <input type="text" class="login__input" placeholder="Логин">
+    </label>
+    <label class="login__label login__label--password">
+      <input type="password" class="login__input" placeholder="Пароль">
+    </label>
+    <input type="checkbox" id="login__checkbox" checked>
+    <label class="login__remember" for="login__checkbox">Запомните меня</label>
+    <a href="#" class="login__restore">Я забыл пароль!</a>
+    <button class="login__enter" type="submit">
+    Войти <span class="hidden__mobile">в личный кабинет</span>
+    </button>
+    <button class="login__close" type="button" title="Закрыть">Закрыть</button>
+  </form>
+</div>
+<script>
+/*Variables*/
+var toggle = document.querySelector('.menu-toggle');
+var navigationWrapper = document.querySelector('.navigation-wrapper');
+
+var loginLink = document.querySelector('.userblock__link--enter');
+var loginWindow = document.querySelector('.login');
+var loginClose = document.querySelector('.login__close');
+
+/*No js remove*/
+navigationWrapper.classList.remove('navigation-wrapper--nojs');
+
+
+/*Listeners*/
+navigationWrapper.addEventListener('click', function(event) {
+  if(event.target.classList.contains('menu-toggle')) {
+    navigationWrapper.classList.toggle('navigation-wrapper--opened');
+  }
+  else if (event.target.tagName === 'A' && navigationWrapper.classList.contains('navigation-wrapper--opened')) {
+    navigationWrapper.classList.remove('navigation-wrapper--opened');
+  }
+});
+
+loginLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  loginWindow.classList.toggle('login--closed');
+});
+
+loginClose.addEventListener('click', function() {
+  loginWindow.classList.add('login--closed');
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Barbershop Наши работы</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.createElement('picture');
+  </script>
+  <script src="js/picturefill.min.js" async></script>
+</head>
+<body class="page">
+<!-- HEADER -->
+<header class="main-header main-header--divider">
+<!-- HEADER -> NAVLINE -->
+  <div class="navline">
+    <nav class="navigation-wrapper container navigation-wrapper--nojs">
+      <ul class="navigation">
+        <li class="navigation__item"><a href="index.html" class="navigation__link">Главная</a></li>
+        <li class="navigation__item navigation__item--active"><a class="navigation__link">Наши работы</a></li>
+        <li class="navigation__item"><a href="form.html" class="navigation__link">Записаться</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">HTML Academy</a></li>
+      </ul>
+      <ul class="userblock">
+        <li class="userblock__item"><a href="/login" class="userblock__link userblock__link--enter">Вход</a></li>
+      </ul>
+      <button class="menu-toggle" type="button">Открыть меню</button>
+    </nav>
+  </div>
+<!-- HEADER -> LOGOLINE -->
+  <div class="logoline logoline--divider">
+    <picture>
+      <source media="(max-width: 320px)" srcset="img/m-logo.png">
+      <source media="(max-width: 768px)" srcset="img/t-logo.png">
+      <img src="img/d-logo.png" alt="Barbershop" class="logoline__logo">
+    </picture>
+  </div>
+</header>
+<!-- WORKSLINE -->
+<div class="worksline">
+  <section class="works container">
+    <h2 class="works__title">Наши работы</h2>
+    <a href="index.html" class="works__home">На главную</a>
+    <figure class="works__figure works__figure--best-of-month">
+      <picture>
+        <source media="(max-width: 320px)" srcset="img/works-photo1-m.jpg">
+        <source media="(max-width: 768px)" srcset="img/works-photo1-t.jpg">
+        <img src="img/works-photo1-d.jpg" alt="Photo1" class="works__photo works__photo--best-of-month">
+      </picture>
+      <figcaption class="works__content works__content--best-of-month">
+        <span class="works__tag">Работа месяца</span>
+        <b class="works__name">Лжепётр Мчиславский</b>
+        <blockquote class="works__review">Где я только ни стригся, но так как делаете это вы — не умеет никто другой! Еще раз спасибо и до скорого!</blockquote>
+        <ul class="works__list">
+          <li class="works__item works__item--scissors">Стрижка</li>
+          <li class="works__item works__item--beard">Бритье</li>
+          <li class="works__item works__item--mustache">Усы</li>
+        </ul>
+      </figcaption>
+    </figure>
+    <figure class="works__figure">
+      <picture>
+        <source media="(max-width: 320px)" srcset="img/works-photo2-m.jpg">
+        <source media="(max-width: 768px)" srcset="img/works-photo2-t.jpg">
+        <img src="img/works-photo2-d.jpg" alt="photo2" class="works__photo">
+      </picture>
+      <figcaption class="works__content">
+        <b class="works__name">Саша Мальцев</b>
+        <blockquote class="works__review">Попросил омолодить и омолодили! Кто теперь скажет, что мне 45?</blockquote>
+        <ul class="works__list">
+          <li class="works__item works__item--scissors">Стрижка</li>
+        </ul>
+      </figcaption>
+    </figure>
+    <figure class="works__figure">
+      <picture>
+        <source media="(max-width: 320px)" srcset="img/works-photo3-m.jpg">
+        <source media="(max-width: 768px)" srcset="img/works-photo3-t.jpg">
+        <img src="img/works-photo3-d.jpg" alt="photo3" class="works__photo">
+      </picture>
+      <figcaption class="works__content">
+        <b class="works__name">Владимир Иваныч</b>
+        <blockquote class="works__review">К зимнему сезону — готов!</blockquote>
+        <ul class="works__list">
+          <li class="works__item works__item--beard">Борода</li>
+          <li class="works__item works__item--mustache">Усы</li>
+        </ul>
+      </figcaption>
+    </figure>
+    <figure class="works__figure">
+      <picture>
+        <source media="(max-width: 320px)" srcset="img/works-photo4-m.jpg">
+        <source media="(max-width: 768px)" srcset="img/works-photo4-t.jpg">
+        <img src="img/works-photo4-d.jpg" alt="photo4" class="works__photo">
+      </picture>
+      <figcaption class="works__content">
+        <b class="works__name">Винстон Синий</b>
+        <blockquote class="works__review">Как только зарастаю и волосы начинают мешать видеть — бегом в Бородинский!</blockquote>
+        <ul class="works__list">
+          <li class="works__item works__item--scissors">Стрижка</li>
+        </ul>
+      </figcaption>
+    </figure>
+   </section>
+ </div> 
+
+ <!-- PRICES -->
+<div class="pricesline">
+  <section class="prices container">
+    <h2 class="prices__title">Прейскурант</h2>
+    <table class="prices__table">
+      <tr class="prices__row">
+        <td class="prices__cell">1</td>
+        <td class="prices__cell">Классическая стрижка</td>
+        <td class="prices__cell">с мытьем головы</td>
+        <td class="prices__cell">1 500 руб.</td>
+      </tr>
+      <tr class="prices__row">
+        <td class="prices__cell">2</td>
+        <td class="prices__cell">Современный вариант</td>
+        <td class="prices__cell">с мытьем головы</td>
+        <td class="prices__cell">1 500 руб.</td>
+      </tr>
+      <tr class="prices__row">
+        <td class="prices__cell">3</td>
+        <td class="prices__cell">Индивидуальный подход</td>
+        <td class="prices__cell">с мытьем головы</td>
+        <td class="prices__cell">2 000 руб.</td>
+      </tr>
+      <tr class="prices__row">
+        <td class="prices__cell">4</td>
+        <td class="prices__cell">Бритье бороды</td>
+        <td class="prices__cell">без мытья</td>
+        <td class="prices__cell">500 руб.</td>
+      </tr>
+      <tr class="prices__row">
+        <td class="prices__cell">5</td>
+        <td class="prices__cell">Бритье головы</td>
+        <td class="prices__cell">с мытьем головы</td>
+        <td class="prices__cell">1 000  руб.</td>
+      </tr>
+    </table>
+    <div class="prices__discount">С 10:00 до 14:00 скидка 20%</div>
+  </section>
+</div>
+
+<!-- FOOTERLINE -->
+<div class="footerline">
+  <footer class="main-footer container">
+    <section class="contact">
+    <b class="contact__title">Барбершоп Бородинский</b>
+    <address class="contact__address">
+    г. Санкт-Петербург, ул. Большая Конюшенная 19/8 
+    <span class="hidden__mobile">Тел.: </span>
+    <a href="#" class="contact__link">+7 (812) 555-66-66</a>  
+    </address>
+    </section>
+    <section class="social">
+      <b class="social__title">Давайте дружить!</b>
+      <ul class="social__list">
+        <li class="social__item"><a href="#" class="social__link social__link--vkontakte">Вконтакте</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--facebook">Facebook</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--instagram">Instagram</a></li>
+      </ul>
+    </section>
+    <section class="copyright">
+      <b class="copyright__title">Разработано:</b>
+      <a href="#" class="copyright__link">HTML Academy</a>
+    </section>
+  </footer>
+</div>
+
+<!-- LOGIN FORM -->
+<div class="login login--closed">
+  <h2 class="login__title">Личный кабинет</h2>
+  <p class="login__descr">Введите свой логин и пароль, чтобы войти</p>
+  <form action="" class="login__form" method="post">
+    <label class="login__label login__label--name">
+      <input type="text" class="login__input" placeholder="Логин">
+    </label>
+    <label class="login__label login__label--password">
+      <input type="password" class="login__input" placeholder="Пароль">
+    </label>
+    <input type="checkbox" id="login__checkbox" checked>
+    <label class="login__remember" for="login__checkbox">Запомните меня</label>
+    <a href="#" class="login__restore">Я забыл пароль!</a>
+    <button class="login__enter" type="submit">
+    Войти <span class="hidden__mobile">в личный кабинет</span>
+    </button>
+    <button class="login__close" type="button" title="Закрыть">Закрыть</button>
+  </form>
+</div>
+<script>
+/*Variables*/
+var toggle = document.querySelector('.menu-toggle');
+var navigationWrapper = document.querySelector('.navigation-wrapper');
+
+var loginLink = document.querySelector('.userblock__link--enter');
+var loginWindow = document.querySelector('.login');
+var loginClose = document.querySelector('.login__close');
+
+/*No js remove*/
+navigationWrapper.classList.remove('navigation-wrapper--nojs');
+
+
+/*Listeners*/
+navigationWrapper.addEventListener('click', function(event) {
+  if(event.target.classList.contains('menu-toggle')) {
+    navigationWrapper.classList.toggle('navigation-wrapper--opened');
+  }
+  else if (event.target.tagName === 'A' && navigationWrapper.classList.contains('navigation-wrapper--opened')) {
+    navigationWrapper.classList.remove('navigation-wrapper--opened');
+  }
+});
+
+loginLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  loginWindow.classList.toggle('login--closed');
+});
+
+loginClose.addEventListener('click', function() {
+  loginWindow.classList.add('login--closed');
+});
+
+</script>
+</body>
+</html>

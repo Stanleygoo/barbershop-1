@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Barbershop Главная</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    document.createElement('picture');
+  </script>
+  <script src="js/picturefill.min.js" async></script>
+</head>
+<body class="page">
+<!-- HEADER -->
+<header class="main-header">
+<!-- HEADER -> NAVLINE -->
+  <div class="navline">
+    <nav class="navigation-wrapper container navigation-wrapper--nojs">
+      <ul class="navigation">
+        <li class="navigation__item navigation__item--active"><a class="navigation__link">Главная</a></li>
+        <li class="navigation__item"><a href="works.html" class="navigation__link">Наши работы</a></li>
+        <li class="navigation__item"><a href="form.html" class="navigation__link">Записаться</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link">HTML Academy</a></li>
+      </ul>
+      <ul class="userblock">
+        <li class="userblock__item"><a href="/login" class="userblock__link userblock__link--enter">Вход</a></li>
+      </ul>
+      <button class="menu-toggle" type="button">Открыть меню</button>
+    </nav>
+  </div>
+<!-- HEADER -> LOGOLINE -->
+  <div class="logoline">
+    <picture>
+      <source media="(max-width: 320px)" srcset="img/m-logo.png">
+      <source media="(max-width: 768px)" srcset="img/t-logo.png">
+      <img src="img/d-logo.png" alt="Barbershop" class="logoline__logo">
+    </picture>
+  </div>
+</header>
+
+<!-- STATSLINE -->
+<div class="statsline">
+  <section class="stats container">
+    <header class="stats__header">
+      <b class="stats__slogan">Стрижка у нас это выгодно!</b>
+      <p class="stats__intro">Мужская стрижка требует точного подхода. Обратимся к статистике:</p>
+      <small class="stats__legend">* — приведённые данные ложь</small>
+    </header>
+    <ul class="stats__list">
+      <li class="stats__item">
+        <b class="stats__number">1 500 <sup>*</sup></b>
+        <p class="stats__value">рублей вложений</p>
+      </li>
+      <li class="stats__item">
+        <b class="stats__number">7 200</b>
+        <p class="stats__value">секунд времени мастера</p>
+      </li>
+      <li class="stats__item">
+        <b class="stats__number">90 000</b>
+        <p class="stats__value">постриженных волос</p>
+      </li>
+      <li class="stats__item">
+        <b class="stats__number">500 000 <sup>*</sup></b>
+        <p class="stats__value">лайков и комплиментов</p>
+      </li>
+    </ul>
+  </section>
+</div>
+<!-- FEATURESLINE -->
+<div class="featuresline">
+  <section class="features container">
+    <input type="radio"  name="features__point" id="features__slide1" checked>
+    <input type="radio"  name="features__point" id="features__slide2">
+    <input type="radio" name="features__point" id="features__slide3">
+    <ul class="features__list">
+      <li class="features__item features__item--fast">
+        <b class="features__heading">Быстро</b>
+        <p class="features__descr">Мы делаем свою работу быстро!  Два часа пролетят незаметно и вы — cчастливый обладатель стильной стрижки-минутки</p>
+      </li>
+      <li class="features__item features__item--cool">
+        <b class="features__heading">Круто</b>
+        <p class="features__descr">
+        Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино. Во всяком случае внешне.</p>
+      </li>
+      <li class="features__item features__item--expensive">
+        <b class="features__heading">Дорого</b>
+        <p class="features__descr">Наши мастера — профессионалы своего дела и не могут стоить дёшево. К тому же, разве цена не даёт определённый статус?</p>
+      </li>
+    </ul>
+    <div class="features__controls">
+      <label for="features__slide1" class="features__control"></label>
+      <label for="features__slide2" class="features__control"></label>
+      <label for="features__slide3" class="features__control"></label>
+    </div>
+  </section>
+</div>
+
+<!-- NEWSLINE -->
+<div class="newsline">
+  <section class="news container">
+    <h2 class="news__heading">Новости и акции</h2>
+    <ul class="news__list">
+      <li class="news__item">
+        <a href="#" class="news__content">Нам наконец завезли Ягермайстер! Теперь вы можете пропусить стаканчик во время стрижки.</a>
+        <time class="news__date">
+          <span class="news__date-number">29</span> 
+          <span class="news__date-month">сент</span>
+        </time>
+      </li>
+      <li class="news__item">
+        <a href="#" class="news__content">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройны ряды. Спешите записаться!</a>
+        <time class="news__date">
+          <span class="news__date-number">19</span> 
+          <span class="news__date-month">сент</span>
+        </time>
+      </li>
+      <li class="news__item">
+        <a href="#" class="news__content">Все дорожает, а наши стрижки нет! Как так? Приходите, постригитесь и узнаете, в чем здесь подвох!</a>
+        <time class="news__date">
+          <span class="news__date-number">9</span> 
+          <span class="news__date-month">сент</span>
+        </time>
+      </li>
+    </ul>
+    <button class="news__show-all">Показать все</button>
+  </section>
+</div>
+
+<!-- REVIEWS -->
+<div class="reviewsline">
+  <section class="reviews container">
+    <h2 class="reviews__heading">Отзывы о нас</h2>
+    <div class="reviews-slider">
+      <input type="radio" name="reviews__point" id="reviews__slide1" checked>
+      <input type="radio" name="reviews__point" id="reviews__slide2">
+      <input type="radio" name="reviews__point" id="reviews__slide3">
+      <button class="reviews-slider__arrow reviews-slider__arrow--left" disabled>Влево</button>
+      <div class="reviews-slider__wrapper">
+        <ul class="reviews-slider__list">
+          <li class="reviews-slider__item">
+            <figure class="reviews-slider__photo">
+              <picture>
+                <source srcset="img/reviews-photo1-m.png" media="(max-width: 320px)">
+                <source srcset="img/reviews-photo1-t.png" media="(max-width: 768px)">
+                <img src="img/reviews-photo1.jpg" alt="Travis Barker" class="reviews-slider__image" width="249" height="160">
+              </picture>
+            </figure>
+            <div class="reviews-slider__content">
+              <b class="reviews-slider__name">Трэвис Баркер</b>
+              <p class="reviews-slider__message">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+            </div>
+          </li>
+          <li class="reviews-slider__item">
+            <figure class="reviews-slider__photo">
+              <picture>
+                <source srcset="img/reviews-photo1-m.png" media="(max-width: 320px)">
+                <source srcset="img/reviews-photo1-t.png" media="(max-width: 768px)">
+                <img src="img/reviews-photo1.jpg" alt="Travis Barker" class="reviews-slider__image" width="249" height="160">
+              </picture>
+            </figure>
+            <div class="reviews-slider__content">
+              <b class="reviews-slider__name">Трэвис Баркер</b>
+              <p class="reviews-slider__message">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+            </div>
+          </li>
+          <li class="reviews-slider__item">
+            <figure class="reviews-slider__photo">
+              <picture>
+                <source srcset="img/reviews-photo1-m.png" media="(max-width: 320px)">
+                <source srcset="img/reviews-photo1-t.png" media="(max-width: 768px)">
+                <img src="img/reviews-photo1.jpg" alt="Travis Barker" class="reviews-slider__image" width="249" height="160">
+              </picture>
+            </figure>
+            <div class="reviews-slider__content">
+              <b class="reviews-slider__name">Трэвис Баркер</b>
+              <p class="reviews-slider__message">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button class="reviews-slider__arrow reviews-slider__arrow--right" disabled>Вправо</button>
+      <div class="reviews-slider__controls">
+        <label for="reviews__slide1" class="reviews-slider__control"></label>
+        <label for="reviews__slide2" class="reviews-slider__control"></label>
+        <label for="reviews__slide3" class="reviews-slider__control"></label>          
+      </div>
+    </div>
+    <button class="reviews__leave-review">Оставить свой</button>
+  </section>
+</div>
+
+<!-- FOOTERLINE -->
+<div class="footerline">
+  <footer class="main-footer container">
+    <section class="contact">
+    <b class="contact__title">Барбершоп Бородинский</b>
+    <address class="contact__address">
+    г. Санкт-Петербург, ул. Большая Конюшенная 19/8 
+    <span class="hidden__mobile">Тел.: </span>
+    <a href="#" class="contact__link">+7 (812) 555-66-66</a>  
+    </address>
+    </section>
+    <section class="social">
+      <b class="social__title">Давайте дружить!</b>
+      <ul class="social__list">
+        <li class="social__item"><a href="#" class="social__link social__link--vkontakte">Вконтакте</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--facebook">Facebook</a></li>
+        <li class="social__item"><a href="#" class="social__link social__link--instagram">Instagram</a></li>
+      </ul>
+    </section>
+    <section class="copyright">
+      <b class="copyright__title">Разработано:</b>
+      <a href="#" class="copyright__link">HTML Academy</a>
+    </section>
+  </footer>
+</div>
+
+<!-- LOGIN FORM -->
+<div class="login login--closed">
+  <h2 class="login__title">Личный кабинет</h2>
+  <p class="login__descr">Введите свой логин и пароль, чтобы войти</p>
+  <form action="" class="login__form" method="post">
+    <label class="login__label login__label--name">
+      <input type="text" class="login__input" placeholder="Логин">
+    </label>
+    <label class="login__label login__label--password">
+      <input type="password" class="login__input" placeholder="Пароль">
+    </label>
+    <input type="checkbox" id="login__checkbox" checked>
+    <label class="login__remember" for="login__checkbox">Запомните меня</label>
+    <a href="#" class="login__restore">Я забыл пароль!</a>
+    <button class="login__enter" type="submit">
+    Войти <span class="hidden__mobile">в личный кабинет</span>
+    </button>
+    <button class="login__close" type="button" title="Закрыть">Закрыть</button>
+  </form>
+</div>
+<script>
+/*Variables*/
+var toggle = document.querySelector('.menu-toggle');
+var navigationWrapper = document.querySelector('.navigation-wrapper');
+
+var loginLink = document.querySelector('.userblock__link--enter');
+var loginWindow = document.querySelector('.login');
+var loginClose = document.querySelector('.login__close');
+
+var leftArrow = document.querySelector('.reviews-slider__arrow--left');
+var rightArrow = document.querySelector('.reviews-slider__arrow--right');
+var lastInput = document.querySelector('.reviews-slider input:nth-last-of-type(1)');
+var firstInput = document.querySelector('.reviews-slider input:nth-of-type(1)');
+
+/*No js remove*/
+navigationWrapper.classList.remove('navigation-wrapper--nojs');
+leftArrow.removeAttribute('disabled');
+rightArrow.removeAttribute('disabled');
+
+/*Listeners*/
+navigationWrapper.addEventListener('click', function(event) {
+  if(event.target.classList.contains('menu-toggle')) {
+    navigationWrapper.classList.toggle('navigation-wrapper--opened');
+  }
+  else if (event.target.tagName === 'A' && navigationWrapper.classList.contains('navigation-wrapper--opened')) {
+    navigationWrapper.classList.remove('navigation-wrapper--opened');
+  }
+});
+
+loginLink.addEventListener('click', function(event) {
+  event.preventDefault();
+  loginWindow.classList.toggle('login--closed');
+});
+
+loginClose.addEventListener('click', function() {
+  loginWindow.classList.add('login--closed');
+});
+
+
+leftArrow.addEventListener('click', function() {
+  var checkedInput = document.querySelector('.reviews-slider input:checked');
+  if (checkedInput !== firstInput) {
+    checkedInput.previousElementSibling.checked = true;
+  }
+  else if (checkedInput === firstInput) {
+    lastInput.checked = true;
+  }
+});
+
+rightArrow.addEventListener('click', function() {
+  var checkedInput = document.querySelector('.reviews-slider input:checked');
+  if (checkedInput !== lastInput) {
+    checkedInput.nextElementSibling.checked = true;
+  }
+  else if (checkedInput === lastInput) {
+    firstInput.checked = true;
+  }
+});
+
+</script>
+</body>
+</html>
