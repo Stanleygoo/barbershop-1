@@ -1,0 +1,114 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-i-beard {
+  background-image: url(sprite.png);
+  background-position: -63px -14px;
+  width: 23px;
+  height: 21px;
+}
+.icon-i-checkbox {
+  background-image: url(sprite.png);
+  background-position: -86px -37px;
+  width: 22px;
+  height: 16px;
+}
+.icon-i-facebook--big {
+  background-image: url(sprite.png);
+  background-position: 0px -38px;
+  width: 18px;
+  height: 39px;
+}
+.icon-i-facebook {
+  background-image: url(sprite.png);
+  background-position: -110px 0px;
+  width: 10px;
+  height: 21px;
+}
+.icon-i-instagram--big {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 36px;
+  height: 36px;
+}
+.icon-i-instagram {
+  background-image: url(sprite.png);
+  background-position: -88px -14px;
+  width: 19px;
+  height: 19px;
+}
+.icon-i-login--black {
+  background-image: url(sprite.png);
+  background-position: -38px -28px;
+  width: 16px;
+  height: 16px;
+}
+.icon-i-login--white {
+  background-image: url(sprite.png);
+  background-position: -38px -46px;
+  width: 16px;
+  height: 16px;
+}
+.icon-i-login-mustard {
+  background-image: url(sprite.png);
+  background-position: -63px -59px;
+  width: 16px;
+  height: 16px;
+}
+.icon-i-login {
+  background-image: url(sprite.png);
+  background-position: -81px -59px;
+  width: 16px;
+  height: 16px;
+}
+.icon-i-mustache {
+  background-image: url(sprite.png);
+  background-position: -63px 0px;
+  width: 45px;
+  height: 12px;
+}
+.icon-i-name {
+  background-image: url(sprite.png);
+  background-position: 0px -79px;
+  width: 15px;
+  height: 15px;
+}
+.icon-i-password {
+  background-image: url(sprite.png);
+  background-position: -20px -38px;
+  width: 15px;
+  height: 17px;
+}
+.icon-i-scissors {
+  background-image: url(sprite.png);
+  background-position: -63px -37px;
+  width: 21px;
+  height: 20px;
+}
+.icon-i-vk--big {
+  background-image: url(sprite.png);
+  background-position: -38px 0px;
+  width: 23px;
+  height: 26px;
+}
+.icon-i-vk {
+  background-image: url(sprite.png);
+  background-position: -20px -57px;
+  width: 15px;
+  height: 17px;
+}
