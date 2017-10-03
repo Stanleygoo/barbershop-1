@@ -1055,6 +1055,7 @@ body {
 
 .news__list {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -1591,6 +1592,7 @@ body {
 
 .social__list {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0;
 	padding: 0;
